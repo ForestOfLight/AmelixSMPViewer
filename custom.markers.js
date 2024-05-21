@@ -36,7 +36,7 @@ Use the imageScale property if the pin image is too large.
 
 */
 
-UnminedCustomMarkers = {
+example = {
 
     isEnabled: false,
 
@@ -84,3 +84,88 @@ UnminedCustomMarkers = {
         // do not delete the following two closing brackets
     ]
 }
+
+UnminedCustomMarkersSMPOW = {
+    isEnabled: true,
+
+    markers: [
+        {
+            x: 0,
+            z: 0,
+            text: "Spawn",
+            textColor: "white",
+            font: "bold 30px Calibri,sans serif",
+        },
+        {
+            x: 389,
+            z: 1194,
+            text: "Mike Homer's Base", 
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            x: 50,
+            z: 1404,
+            text: "Starter Village", 
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            x: -1482,
+            z: 473,
+            text: "Warden Farm", 
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            x: -1352,
+            z: -179,
+            text: "8x Iron Farm", 
+            textColor: "white", 
+            font: "12px Calibri,sans serif",
+        },
+        {
+            x: 171,
+            z: -3141,
+            text: "End Portal", 
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            x: 728,
+            z: 588,
+            text: "Oare Town", 
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            x: 744,
+            z: 351,
+            text: "Drowned Farm",
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        }
+    ]
+}
+
+UnminedCustomMarkersSMPNether = {
+}
+
+UnminedCustomMarkersSMPEnd = {
+}
+
+UnminedCustomMarkersCMPOW = {
+    isEnabled: true,
+
+    markers: [
+        {
+            x: 0,
+            z: 0,
+            text: "Spawn",
+            textColor: "white",
+            font: "bold 30px Calibri,sans serif",
+        },
+    ]
+}
+
+var mapCustomMarkersArray = [UnminedCustomMarkersSMPOW, UnminedCustomMarkersSMPNether, UnminedCustomMarkersSMPEnd, UnminedCustomMarkersCMPOW];
