@@ -90,11 +90,11 @@ UnminedCustomMarkersSMPOW = {
 
     markers: [
         {
-            x: 0,
-            z: 0,
+            x: -3,
+            z: 359,
             text: "Spawn",
             textColor: "white",
-            font: "bold 30px Calibri,sans serif",
+            font: "bold 25px Calibri,sans serif",
         },
         {
             x: 389,
@@ -144,7 +144,119 @@ UnminedCustomMarkersSMPOW = {
             text: "Drowned Farm",
             textColor: "white",
             font: "12px Calibri,sans serif",
-        }
+        },
+        {
+            text: "Cleric Hall",
+            x: 893,   
+            z: 838,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Raymond's Base",
+            x: 2000,
+            z: 2000,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Ice Farm",
+            x: 930,
+            z: 2770,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Raid Farm",
+            x: -878,
+            z: 2737,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Stone Mason Hall",
+            x: -23,
+            z: 738,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Stone Factory",
+            x: -2254,
+            z: 441,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Amelix Villager Complex",
+            x: -3500,
+            z: 6850,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Gravity Block Duper",
+            x: -4258,
+            z: -4794,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "The BEAST",
+            x: -6398,
+            z: -4707,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Netherwart Farm",
+            x: -2836,
+            z: -5723,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Tool/Armor Trading Hall",
+            x: -2673,
+            z: -5201,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Squid Farm",
+            x: 678,
+            z: -563,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Mooshroom Farm",
+            x: -1180,
+            z: 4669,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Rabbit Foot Farm",
+            x: -984,
+            z: 256,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "ADI's Base",
+            x: -2752,
+            z: -171,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
+        {
+            text: "Creeper Farm",
+            x: -5128,
+            z: 4,
+            textColor: "white",
+            font: "12px Calibri,sans serif",
+        },
     ]
 }
 
@@ -163,7 +275,7 @@ UnminedCustomMarkersCMPOW = {
             z: 0,
             text: "Spawn",
             textColor: "white",
-            font: "bold 30px Calibri,sans serif",
+            font: "bold 25px Calibri,sans serif",
         },
     ]
 }

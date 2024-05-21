@@ -7,4 +7,8 @@ var UnminedPlayersSMPEnd = {}
 
 var UnminedPlayersCMPOW = {}
 
-var mapPlayersArray = [UnminedPlayersSMPOW, UnminedPlayersSMPNether, UnminedPlayersSMPEnd, UnminedPlayersCMPOW]
+var UnminedPlayersCMPNether = {}
+
+var UnminedPlayersCMPEnd = {}
+
+var mapPlayersArray = [UnminedPlayersSMPOW, UnminedPlayersSMPNether, UnminedPlayersSMPEnd, UnminedPlayersCMPOW, UnminedPlayersCMPNether, UnminedPlayersCMPEnd]

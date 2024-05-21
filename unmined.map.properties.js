@@ -9,15 +9,39 @@ var UnminedMapPropertiesSMPOW = {
     minRegionZ: -14,
     maxRegionX: 12,
     maxRegionZ: 23,
-    worldName: "Amelix SMP Overworld",
-    background: "",
+    worldName: "SMP Overworld",
+    background: "#ffffff",
     markers: new Array()
 }
 
 var UnminedMapPropertiesSMPNether = {
+    regionFolderName: "smpNether",
+    minZoom: -6,
+    maxZoom: 2,
+    defaultZoom: 0,
+    imageFormat: "jpeg",
+    minRegionX: -13,
+    minRegionZ: -10,
+    maxRegionX: 1,
+    maxRegionZ: 5,
+    worldName: "SMP Nether",
+    background: "#ffffff",
+    markers: new Array()
 }
 
 var UnminedMapPropertiesSMPEnd = {
+    regionFolderName: "smpEnd",
+    minZoom: -6,
+    maxZoom: 2,
+    defaultZoom: 0,
+    imageFormat: "jpeg",
+    minRegionX: -14,
+    minRegionZ: -34,
+    maxRegionX: 30,
+    maxRegionZ: 24,
+    worldName: "SMP End",
+    background: "#080404",
+    markers: new Array()
 }
 
 var UnminedMapPropertiesCMPOW = {
@@ -26,13 +50,43 @@ var UnminedMapPropertiesCMPOW = {
     maxZoom: 2,
     defaultZoom: 0,
     imageFormat: "jpeg",
-    minRegionX: -69,
-    minRegionZ: -20,
-    maxRegionX: 68,
-    maxRegionZ: 68,
-    worldName: "Amelix CMP Overworld",
-    background: "",
+    minRegionX: -32769,
+    minRegionZ: -32769,
+    maxRegionX: 58593,
+    maxRegionZ: 58594,
+    worldName: "CMP Overworld",
+    background: "#e4e4e4",
     markers: new Array()
 }
 
-var mapPropertiesArray = [UnminedMapPropertiesSMPOW, UnminedMapPropertiesSMPNether, UnminedMapPropertiesSMPEnd, UnminedMapPropertiesCMPOW];
+var UnminedMapPropertiesCMPNether = {
+    regionFolderName: "cmpNether",
+    minZoom: -6,
+    maxZoom: 2,
+    defaultZoom: 0,
+    imageFormat: "jpeg",
+    minRegionX: -2,
+    minRegionZ: -2,
+    maxRegionX: 8,
+    maxRegionZ: 8,
+    worldName: "CMP Nether",
+    background: "#ffffff",
+    markers: new Array()
+}
+
+var UnminedMapPropertiesCMPEnd = {
+    regionFolderName: "cmpEnd",
+    minZoom: -6,
+    maxZoom: 2,
+    defaultZoom: 0,
+    imageFormat: "jpeg",
+    minRegionX: -3,
+    minRegionZ: -3,
+    maxRegionX: 2,
+    maxRegionZ: 2,
+    worldName: "CMP End",
+    background: "#080404",
+    markers: new Array()
+}
+
+var mapPropertiesArray = [UnminedMapPropertiesSMPOW, UnminedMapPropertiesSMPNether, UnminedMapPropertiesSMPEnd, UnminedMapPropertiesCMPOW, UnminedMapPropertiesCMPNether, UnminedMapPropertiesCMPEnd];
