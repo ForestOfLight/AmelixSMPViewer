@@ -1,3 +1,3 @@
 # uNmINeD but with a map switcher
 Displays the Amelix SMP & CMP.
-> Last updated 5-13-2024
+> Last updated 5-11-2024

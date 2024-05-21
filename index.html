@@ -70,6 +70,16 @@
             border-radius: 3px;
             box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
         }
+
+        .last-updated-note {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background-color: white;
+            padding: 6px;
+            border-radius: 3px;
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+        }
     </style>
 
 </head>
@@ -92,6 +102,10 @@
 
         unmined.map('map', mapPropertiesArray[currMapIndex], mapRegionsArray[currMapIndex]);
 
+        var lastupdatednote = document.createElement('div');
+        lastupdatednote.className = 'last-updated-note';
+        lastupdatednote.innerHTML = 'Last updated 5-11-2024';
+        document.body.appendChild(lastupdatednote);
     </script>
 
     <script src="map.switcher.js"></script>
