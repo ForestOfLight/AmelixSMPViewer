@@ -111,6 +111,13 @@ UnminedCustomMarkersSMPOW = {
             font: "14px Calibri,sans serif",
         },
         {
+            text: "Old Raid Farm",
+            x: -1080,
+            z: 850,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
             x: -1482,
             z: 473,
             text: "Warden Farm", 
@@ -189,8 +196,8 @@ UnminedCustomMarkersSMPOW = {
         },
         {
             text: "Amelix Villager Complex",
-            x: -3500,
-            z: 6850,
+            x: -3510,
+            z: 7025,
             textColor: "white",
             font: "14px Calibri,sans serif",
         },
@@ -216,7 +223,7 @@ UnminedCustomMarkersSMPOW = {
             font: "14px Calibri,sans serif",
         },
         {
-            text: "Tool/Armor Trading Hall",
+            text: "Tool & Armor Trading Hall",
             x: -2673,
             z: -5201,
             textColor: "white",
@@ -231,8 +238,8 @@ UnminedCustomMarkersSMPOW = {
         },
         {
             text: "Mooshroom Farm",
-            x: -1180,
-            z: 4669,
+            x: -698,
+            z: 5054,
             textColor: "white",
             font: "14px Calibri,sans serif",
         },
@@ -257,13 +264,329 @@ UnminedCustomMarkersSMPOW = {
             textColor: "white",
             font: "14px Calibri,sans serif",
         },
+        {
+            text: "25x Iron Farm",
+            x: -1351,
+            z: -566,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Disc Farm",
+            x: -233,
+            z: 1461,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Guardian Farm",
+            x: 135,
+            z: 155,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Old Raid Farm",
+            x: -1080,
+            z: 850,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Digsort",
+            x: -17,
+            z: 22,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        }
     ]
 }
 
 UnminedCustomMarkersSMPNether = {
+    isEnabled: true,
+
+    markers: [
+        {
+            x: 3,
+            z: 40,
+            text: "Hub",
+            textColor: "white",
+            font: "bold 25px Calibri,sans serif",
+        },
+        {
+            text: "Mike Homer's Base",
+            x: 48,
+            z: 149,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Starter Village",
+            x: 6,
+            z: 175,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Old Raid Farm",
+            x: -135,
+            z: 107,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text:"Warden Farm",
+            x: -185,
+            z: 63,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "25x Iron Farm",
+            x: -166,
+            z: -70,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "End Portal",
+            x: 22,
+            z: -396,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Oare Town",
+            x: 92,
+            z: 71,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Drowned Farm",
+            x: 87,
+            z: 52,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Cleric Hall",
+            x: 111,
+            z: 104,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Raymond's Base",
+            x: 250,
+            z: 250,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Ice Farm",
+            x: 116,
+            z: 346,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Raid Farm",
+            x: -109,
+            z: 340,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Stone Mason Hall",
+            x: -2,
+            z: 88,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Stone Factory",
+            x: -281,
+            z: 64,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Amelix Villager Complex",
+            x: -427,
+            z: 880,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Fortress Farm",
+            x: -660,
+            z: -415,
+            textColor: "black",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Gravity Block Duper",
+            x: -532,
+            z: -605,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "The BEAST",
+            x: -821,
+            z: -591,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Froglight Farm",
+            x: -738,
+            z: 1490,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Woodland Mansion",
+            x: 65,
+            z: 1353,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Netherwart Farm",
+            x: -354,
+            z: -716,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Tool & Armor Trading Hall",
+            x: -334,
+            z: -650,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Squid Farm",
+            x: 85,
+            z: -69,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Glacier",
+            x: 92,
+            z: 504,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Blaze Farm",
+            x: 382,
+            z: 790,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Mooshroom Farm",
+            x: -148,
+            z: 588,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Ancient City",
+            x: -68,
+            z: 259,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Rabbit Foot Farm",
+            x: -125,
+            z: 28,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "ADI's Base",
+            x: -344,
+            z: -23,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Creeper Farm",
+            x: -640,
+            z: -3,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Witch Hut",
+            x: -290,
+            z: 1136,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        }
+    ]
 }
 
 UnminedCustomMarkersSMPEnd = {
+    isEnabled: true,
+
+    markers: [
+        {
+            text: "Platform",
+            x: 100,
+            z: 50,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Chest Hall",
+            x: 50,
+            z: 112,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Bulk Hall",
+            x: 126,
+            z: 112,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Mapart District",
+            x: -383,
+            z: 700,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Mob Switch",
+            x: -136,
+            z: -170,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Wheat Farm",
+            x: -89,
+            z: 27,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Enderman Platform",
+            x: -336,
+            z: 16,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        }
+    ]
 }
 
 UnminedCustomMarkersCMPOW = {
@@ -271,13 +594,220 @@ UnminedCustomMarkersCMPOW = {
 
     markers: [
         {
+            text: "Spawn",
             x: 0,
             z: 0,
-            text: "Spawn",
             textColor: "white",
             font: "bold 25px Calibri,sans serif",
         },
+        // PLOTS
+        {
+            text: "Daniel",
+            x: 0,
+            z: 100,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "ForestOfLight",
+            x: 5000,
+            z: 5000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "kimowin",
+            x: -4466,
+            z: 1327,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Kono",
+            x: 3700,
+            z: 3700,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Bqyden",
+            x: 1000,
+            z: 1000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "R2leyser",
+            x: 6900,
+            z: 6900,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Caleeb",
+            x: 3560,
+            z: 3560,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Luke7720",
+            x: 7200,
+            z: 7200,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Totem",
+            x: 4000,
+            z: 4000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "WolfTammer730",
+            x: -730,
+            z: -730,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "LucaF",
+            x: 2000,
+            z: 2000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "AI Adm1n",
+            x: 10000,
+            z: 10000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "A.R.C.H.",
+            x: -1000,
+            z: -1000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "A.I.M.",
+            x: 4200,
+            z: 4200,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Kairyu",
+            x: 33333,
+            z: 33333,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Xeno",
+            x: -9175,
+            z: -9175,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Raymond",
+            x: 0,
+            z: 4170,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Kevsws",
+            x: 1000,
+            z: -1000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Lovely Gamer",
+            x: 4500,
+            z: 0,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Abstract Voxel",
+            x: -2000,
+            z: 0,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "ADI7811",
+            x: 10000,
+            z: 0,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "EmirAleph",
+            x: 1000,
+            z: 2000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "BigCitrusFruit",
+            x: -5000,
+            z: 5000,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "JTO556",
+            x: 5000,
+            z: -4980,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Potion Brewery",
+            x: 6896,
+            z: 6818,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "H.A.S.T.E.",
+            x: -4200,
+            z: -4200,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
+        }
     ]
 }
 
-var mapCustomMarkersArray = [UnminedCustomMarkersSMPOW, UnminedCustomMarkersSMPNether, UnminedCustomMarkersSMPEnd, UnminedCustomMarkersCMPOW];
+UnminedCustomMarkersCMPNether = {
+    isEnabled: true,
+
+    markers: [
+        {
+            text: "Spawn",
+            x: 0,
+            z: 0,
+            textColor: "white",
+            font: "bold 25px Calibri,sans serif",
+        },
+        {
+            text: "ForestOfLight",
+            x: 730,
+            z: 550,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        }
+    ]
+}
+
+UnminedCustomMarkersCMPEnd = {
+}
+
+var mapCustomMarkersArray = [UnminedCustomMarkersSMPOW, UnminedCustomMarkersSMPNether, UnminedCustomMarkersSMPEnd, UnminedCustomMarkersCMPOW, UnminedCustomMarkersCMPNether, UnminedCustomMarkersCMPEnd];
