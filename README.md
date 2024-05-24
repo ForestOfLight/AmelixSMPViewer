@@ -1,3 +1,3 @@
 # uNmINeD but with a map switcher
 Displays the Amelix SMP & CMP.
-> Last updated 5-11-2024
+> Worlds last updated 5-23-2024

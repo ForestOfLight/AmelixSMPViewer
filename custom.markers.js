@@ -333,6 +333,13 @@ UnminedCustomMarkersSMPOW = {
             z: 130,
             textColor: "white",
             font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Forest's Base",
+            x: -2016,
+            z: -3120,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
         }
     ]
 }
@@ -342,9 +349,9 @@ UnminedCustomMarkersSMPNether = {
 
     markers: [
         {
+            text: "Hub",
             x: 3,
             z: 40,
-            text: "Hub",
             textColor: "white",
             font: "bold 25px Calibri,sans serif",
         },
@@ -572,6 +579,13 @@ UnminedCustomMarkersSMPNether = {
             textColor: "white",
             font: "14px Calibri,sans serif",
         },
+        {
+            text: "Forest's Base",
+            x: -225,
+            z: -395,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        }
     ]
 }
 
