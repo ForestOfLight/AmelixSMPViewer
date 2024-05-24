@@ -298,6 +298,41 @@ UnminedCustomMarkersSMPOW = {
             z: 22,
             textColor: "white",
             font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Mini Mooshroom Farm",
+            x: -4846,
+            z: -98,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Fish Farm",
+            x: 56,
+            z: -504,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Old GBD",
+            x: -3000,
+            z: 740,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "General Mob Farm",
+            x: 30,
+            z: 250,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Old GMF",
+            x: 305,
+            z: 130,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
         }
     ]
 }
@@ -529,7 +564,14 @@ UnminedCustomMarkersSMPNether = {
             z: 1136,
             textColor: "white",
             font: "14px Calibri,sans serif",
-        }
+        },
+        {
+            text: "Pandemonium's Outpost",
+            x: -238,
+            z: 376,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
     ]
 }
 
@@ -540,7 +582,7 @@ UnminedCustomMarkersSMPEnd = {
         {
             text: "Platform",
             x: 100,
-            z: 50,
+            z: 0,
             textColor: "white",
             font: "bold 14px Calibri,sans serif",
         },
@@ -583,6 +625,34 @@ UnminedCustomMarkersSMPEnd = {
             text: "Enderman Platform",
             x: -336,
             z: 16,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Sugar Cane Farm",
+            x: -120,
+            z: -14,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Concrete Converter",
+            x: -305,
+            z: -785,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Furnace Array",
+            x: -422,
+            z: 955,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Nether Tree Farm",
+            x: -483,
+            z: 963,
             textColor: "white",
             font: "bold 14px Calibri,sans serif",
         }
