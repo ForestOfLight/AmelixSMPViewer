@@ -866,6 +866,13 @@ UnminedCustomMarkersCMPOW = {
             z: -4200,
             textColor: "black",
             font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "b0a/GCPU Project",
+            x: 9000,
+            z: 3750,
+            textColor: "black",
+            font: "bold 14px Calibri,sans serif",
         }
     ]
 }
