@@ -5,12 +5,12 @@ var UnminedMapPropertiesSMPOW = {
     maxZoom: 2,
     defaultZoom: 0,
     imageFormat: "jpeg",
-    minRegionX: -17,
-    minRegionZ: -14,
-    maxRegionX: 12,
+    minRegionX: -29,
+    minRegionZ: -19,
+    maxRegionX: 13,
     maxRegionZ: 23,
     worldName: "SMP Overworld",
-    background: "#ffffff",
+    background: "",
     markers: new Array()
 }
 
@@ -22,10 +22,10 @@ var UnminedMapPropertiesSMPNether = {
     imageFormat: "jpeg",
     minRegionX: -13,
     minRegionZ: -10,
-    maxRegionX: 1,
-    maxRegionZ: 5,
+    maxRegionX: 4,
+    maxRegionZ: 7,
     worldName: "SMP Nether",
-    background: "#ffffff",
+    background: "",
     markers: new Array()
 }
 
@@ -40,7 +40,7 @@ var UnminedMapPropertiesSMPEnd = {
     maxRegionX: 30,
     maxRegionZ: 24,
     worldName: "SMP End",
-    background: "#080404",
+    background: "#080403",
     markers: new Array()
 }
 
