@@ -335,7 +335,7 @@ UnminedCustomMarkersSMPOW = {
             font: "14px Calibri,sans serif",
         },
         {
-            text: "Forest's Base",
+            text: "Forest's Town",
             x: -2016,
             z: -3120,
             textColor: "white",
@@ -580,7 +580,7 @@ UnminedCustomMarkersSMPNether = {
             font: "14px Calibri,sans serif",
         },
         {
-            text: "Forest's Base",
+            text: "Forest's Town",
             x: -225,
             z: -395,
             textColor: "white",
