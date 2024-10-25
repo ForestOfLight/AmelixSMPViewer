@@ -7,8 +7,8 @@ var UnminedMapPropertiesSMPOW = {
     imageFormat: "jpeg",
     minRegionX: -29,
     minRegionZ: -19,
-    maxRegionX: 13,
-    maxRegionZ: 23,
+    maxRegionX: 1953,
+    maxRegionZ: 1953,
     worldName: "SMP Overworld",
     background: "",
     markers: new Array()
@@ -52,10 +52,10 @@ var UnminedMapPropertiesCMPOW = {
     imageFormat: "jpeg",
     minRegionX: -32769,
     minRegionZ: -32769,
-    maxRegionX: 58593,
-    maxRegionZ: 58594,
+    maxRegionX: 58595,
+    maxRegionZ: 58600,
     worldName: "CMP Overworld",
-    background: "#e4e4e4",
+    background: "#e6e7e9",
     markers: new Array()
 }
 

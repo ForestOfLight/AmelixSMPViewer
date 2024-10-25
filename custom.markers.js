@@ -340,6 +340,20 @@ UnminedCustomMarkersSMPOW = {
             z: -3120,
             textColor: "white",
             font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Creeper-Preferred GMF",
+            x: -2265,
+            z: 5800,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Witch Hut HSS",
+            x: -2280,
+            z: 5770,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
         }
     ]
 }
@@ -585,6 +599,20 @@ UnminedCustomMarkersSMPNether = {
             z: -395,
             textColor: "white",
             font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Creeper-Preferred GMF",
+            x: -283,
+            z: 725,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
+        },
+        {
+            text: "Dual Blaze Farm",
+            x: -2564,
+            z: 3600,
+            textColor: "white",
+            font: "14px Calibri,sans serif",
         }
     ]
 }
@@ -593,13 +621,6 @@ UnminedCustomMarkersSMPEnd = {
     isEnabled: true,
 
     markers: [
-        {
-            text: "Platform",
-            x: 100,
-            z: 0,
-            textColor: "white",
-            font: "bold 14px Calibri,sans serif",
-        },
         {
             text: "Chest Hall",
             x: 50,
@@ -629,23 +650,9 @@ UnminedCustomMarkersSMPEnd = {
             font: "bold 14px Calibri,sans serif",
         },
         {
-            text: "Wheat Farm",
-            x: -89,
-            z: 27,
-            textColor: "white",
-            font: "bold 14px Calibri,sans serif",
-        },
-        {
             text: "Enderman Platform",
             x: -336,
             z: 16,
-            textColor: "white",
-            font: "bold 14px Calibri,sans serif",
-        },
-        {
-            text: "Sugar Cane Farm",
-            x: -120,
-            z: -14,
             textColor: "white",
             font: "bold 14px Calibri,sans serif",
         },
@@ -667,6 +674,41 @@ UnminedCustomMarkersSMPEnd = {
             text: "Nether Tree Farm",
             x: -483,
             z: 963,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Shulker Farm",
+            x: 86,
+            z: -135,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Wall Street",
+            x: 225,
+            z: -21,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Potion Brewer",
+            x: 192,
+            z: 101,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Tree Farm",
+            x: 1052,
+            z: -322,
+            textColor: "white",
+            font: "bold 14px Calibri,sans serif",
+        },
+        {
+            text: "Netherwart Farm",
+            x: 18,
+            z: -42,
             textColor: "white",
             font: "bold 14px Calibri,sans serif",
         }
