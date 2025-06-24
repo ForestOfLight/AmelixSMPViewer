@@ -37,11 +37,11 @@ document.getElementsByName('mapSelector').forEach((radioButton, index) => {
             }
 
             if (selectedMapPlayers && selectedMapPlayers.length > 0) {
-                selectedMapProperties.markers = selectedMapProperties.markers.concat(unmined.createPlayerMarkers(selectedMapPlayers));
+                selectedMapProperties.markers = selectedMapProperties.markers.concat(Unmined.createPlayerMarkers(selectedMapPlayers));
             }
 
-            document.getElementById('map').innerHTML = ''; // clear current map
-            unmined.map('map', selectedMapProperties, selectedMapRegions);
+            mapElement.innerHTML = ''; // clear current map
+            let unmined = new Unmined(mapElement, selectedMapProperties, selectedMapRegions);
         }
     });
 });
