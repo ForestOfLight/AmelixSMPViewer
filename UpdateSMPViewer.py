@@ -26,7 +26,7 @@ WORLD_CONFIGS = {
 		},
 		"nether": {
 			"background": "#ffffff",
-			"topY": 122,
+			"topY": 121,
 			"bottomY": 0
 		},
 		"end": {
