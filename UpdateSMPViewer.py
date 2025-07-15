@@ -88,6 +88,7 @@ def update_amelix_smp_viewer(service):
 	combine_unmined_webpages()
 	update_config()
 	cleanup_working_directory()
+	push_to_github()
 	print("Amelix SMP Viewer updated successfully.")
 
 def download_latest_worlds(service):
@@ -298,6 +299,16 @@ def update_last_updated_date():
 
 def cleanup_working_directory():
 	shutil.rmtree(WORKING_DIR)
+
+def push_to_github():
+	try:
+		subprocess.run(["git", "add", "."], check=True)
+		subprocess.run(["git", "commit", "-m", f"Update SMP Viewer ({datetime.now().strftime('%Y-%m-%d')})"], check=True)
+		subprocess.run(["git", "push"], check=True)
+		print("Changes pushed to GitHub successfully.")
+	except subprocess.CalledProcessError as e:
+		print(f"Error pushing changes to GitHub: {e}")
+		raise
 
 if __name__ == "__main__":
   main()
