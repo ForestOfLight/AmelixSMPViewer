@@ -22,10 +22,10 @@ MAP_DIR = "map"
 WORLD_CONFIGS = {
 	"Amelix SMP": {
 		"overworld": {
-			"background": "#ffffff",
+			"background": "#78a7ff",
 		},
 		"nether": {
-			"background": "#ffffff",
+			"background": "#2b0507",
 			"topY": 121,
 			"bottomY": 0
 		},
@@ -38,7 +38,7 @@ WORLD_CONFIGS = {
 			"background": "#e4e4e4",
 		},
 		"nether": {
-			"background": "#ffffff",
+			"background": "#2b0507",
 			"topY": 100,
 			"bottomY": 0
 		},
