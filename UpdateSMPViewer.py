@@ -52,7 +52,7 @@ COMMON_CONFIG = {
 	"zoomin": "2",
 	"shadows": "3do",
 	"showgrid": "false",
-	"log-level": "fatal"
+	"log-level": "information"
 }
 
 def main():
@@ -81,15 +81,30 @@ def update_amelix_smp_viewer(service):
 		download_latest_worlds(service)
 	else:
 		print(f"Working directory {WORKING_DIR} already exists and is not empty. Skipping download.")
-	if (not any(filename.startswith("unmined-") for filename in os.listdir(WORKING_DIR))):
-		generate_unmined_webpages()
+	if are_all_webpages_generated():
+		print("All unmined webpages already exist in the working directory. Skipping generation.")
 	else:
-		print("Unmined webpages already exist in the working directory. Skipping generation.")
+		generate_unmined_webpages()
 	combine_unmined_webpages()
 	update_config()
 	cleanup_working_directory()
 	push_to_github()
 	print("Amelix SMP Viewer updated successfully.")
+
+def are_all_webpages_generated():
+	existing_webpages = {filename for filename in os.listdir(WORKING_DIR) if filename.startswith("unmined-")}
+	all_generated = True
+	for world_name in WORLD_CONFIGS.keys():
+		world_path = os.path.join(WORKING_DIR, world_name)
+		if not os.path.isdir(world_path):
+			all_generated = False
+		else:
+			world_short = world_name.replace("Amelix ", "").lower()
+			for dimension in WORLD_CONFIGS[world_name].keys():
+				expected_webpage = f"unmined-{world_short}-{dimension}"
+				if expected_webpage not in existing_webpages:
+					all_generated = False
+	return all_generated
 
 def download_latest_worlds(service):
 	latest_file_id = get_latest_backup_file_id(service)
@@ -174,6 +189,9 @@ def generate_unmined_webpage(world_filename, dimension, config=None):
 		abs_download_dir = os.path.abspath(WORKING_DIR)
 		world_path = os.path.join(abs_download_dir, world_filename)
 		output_path = os.path.join(abs_download_dir, f"unmined-{world_filename.replace("Amelix ", "").lower()}-{dimension}")
+		if os.path.exists(output_path):
+			print(f"Unmined webpage for {world_filename} ({dimension}) already exists. Skipping generation.")
+			return
 		args = [
 			"unmined-cli", "web", "render",
 			"--world", world_path,
